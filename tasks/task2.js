@@ -31,8 +31,8 @@ gulp.task('task2-2', function(callback) {
   callback();
 });
 
-gulp.task('task2', gulp.series('task2-1', 'task2-2', function() {
+gulp.task('task2', gulp.series('task2-1', 'task2-2', function(callback) {
   console.log('i am task2!!');
-  //callback();
+  callback();
 }));
 //k*/
