@@ -24,7 +24,7 @@ $ npm install --save-dev gulp@4.0.0
 
 * gulp gulp@3.x.x
 ```bash
-$ npm install --save-dev gulp@3.9.9
+$ npm install --save-dev gulp@3.9.1
 
 # 3.x.x.のコメントアウトを外す
 # 4.0.0をコメントアウトする
